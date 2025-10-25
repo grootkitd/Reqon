@@ -16,7 +16,7 @@ Reqon is a comprehensive penetration testing reconnaissance platform that provid
 
 ```bash
 git clone <repository-url>
-cd recon-framework
+cd Reqon
 ```
 
 ### 2. Install Dependencies
