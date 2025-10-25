@@ -1,8 +1,8 @@
-# RECON FRAMEWORK - Installation Guide
+# Reqon - Installation Guide
 
 ## Overview
 
-RECON FRAMEWORK is a comprehensive penetration testing reconnaissance platform that provides advanced OSINT capabilities, network enumeration, web application analysis, social engineering intelligence, and infrastructure profiling.
+Reqon is a comprehensive penetration testing reconnaissance platform that provides advanced OSINT capabilities, network enumeration, web application analysis, social engineering intelligence, and infrastructure profiling.
 
 ## Prerequisites
 
