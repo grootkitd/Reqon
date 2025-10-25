@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Cybersecurity-themed design system for OSINT reconnaissance tool */
+
+@layer base {
+  :root {
+    --background: 220 27% 8%;
+    --foreground: 144 100% 80%;
+
+    --card: 220 25% 12%;
+    --card-foreground: 144 100% 80%;
+
+    --popover: 220 25% 12%;
+    --popover-foreground: 144 100% 80%;
+
+    --primary: 144 100% 50%;
+    --primary-foreground: 220 27% 8%;
+
+    --secondary: 220 20% 18%;
+    --secondary-foreground: 144 100% 80%;
+
+    --muted: 220 20% 18%;
+    --muted-foreground: 144 30% 60%;
+
+    --accent: 45 100% 55%;
+    --accent-foreground: 220 27% 8%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 20% 25%;
+    --input: 220 20% 18%;
+    --ring: 144 100% 50%;
+
+    --radius: 0.5rem;
+
+    /* Cyber-themed gradients and effects */
+    --gradient-cyber: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
+    --gradient-dark: linear-gradient(180deg, hsl(var(--background)), hsl(220 27% 6%));
+    --shadow-glow: 0 0 20px hsl(var(--primary) / 0.3);
+    --shadow-cyber: 0 8px 32px hsl(var(--primary) / 0.15);
+    
+    /* Animation timings */
+    --transition-cyber: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
